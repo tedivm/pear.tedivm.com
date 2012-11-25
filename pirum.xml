@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>pear.tedivm.com</name>
+  <summary>tedivm's PEAR channel</summary>
+  <alias>tedivm</alias>
+  <url>http://pear.tedivm.com/</url>
+</server>
