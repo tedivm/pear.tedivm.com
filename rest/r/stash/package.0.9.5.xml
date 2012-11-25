@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stash</name>
+ <channel>pear.tedivm.com</channel>
+ <summary>A place to keep your cache.</summary>
+ <description>A place to keep your cache.</description>
+ <lead>
+  <name>Robert Hafner</name>
+  <user>tedivm</user>
+  <email>tedivm@tedivm.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-11-25</date>
+ <time>23:18:50</time>
+ <version>
+  <release>0.9.5</release>
+  <api>0.9.5</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="bcfca63164e815a1f12ab79c8c23197b" name="src/Stash/Box.php" role="php" />
+   <file baseinstalldir="/" md5sum="4a1b498342d51932d15f2e1d3faf8aad" name="src/Stash/Cache.php" role="php" />
+   <file baseinstalldir="/" md5sum="55743ce81e61ca96cee4ccc63406a2d7" name="src/Stash/Handlers.php" role="php" />
+   <file baseinstalldir="/" md5sum="1ae0cf218771c20772976900312bcaa1" name="src/Stash/Manager.php" role="php" />
+   <file baseinstalldir="/" md5sum="8f3dcdca031cc7eeadba3ba91722ebcd" name="src/Stash/Pool.php" role="php" />
+   <file baseinstalldir="/" md5sum="8402a0685bd2c100ab6aa824c688736b" name="src/Stash/Utilities.php" role="php" />
+   <file baseinstalldir="/" md5sum="20d292fcbd8fa2c04b3fd1c53d6fdf27" name="src/Stash/Exception/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="3c9fd7d0a3730d20a8e35c171580536a" name="src/Stash/Exception/InvalidArgumentException.php" role="php" />
+   <file baseinstalldir="/" md5sum="4e23dff442ce8dfe4b1562ae01a2b198" name="src/Stash/Exception/LogicException.php" role="php" />
+   <file baseinstalldir="/" md5sum="7a9eecd211f2146f1f5e113ee641b395" name="src/Stash/Exception/RuntimeException.php" role="php" />
+   <file baseinstalldir="/" md5sum="f9dc6d0561660330b9678e0cc43e1981" name="src/Stash/Handler/Apc.php" role="php" />
+   <file baseinstalldir="/" md5sum="0095829673fb52ccc747474140ce8c68" name="src/Stash/Handler/Ephemeral.php" role="php" />
+   <file baseinstalldir="/" md5sum="141a5728c5bd7eb4a4eb95e843178080" name="src/Stash/Handler/FileSystem.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0817651b31ce2bcb529bd829f22487f" name="src/Stash/Handler/HandlerInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="fedf0c3bc859afbe2cbffcc374314a03" name="src/Stash/Handler/Memcache.php" role="php" />
+   <file baseinstalldir="/" md5sum="43e989b649a1044534ab6b0d76f56b58" name="src/Stash/Handler/MultiHandler.php" role="php" />
+   <file baseinstalldir="/" md5sum="1fefe5247fc7ac22a7a9faf6f2d4a33e" name="src/Stash/Handler/Sqlite.php" role="php" />
+   <file baseinstalldir="/" md5sum="deeb54879e1232a09919bd4951603e96" name="src/Stash/Handler/Xcache.php" role="php" />
+   <file baseinstalldir="/" md5sum="deedd63e31680bd4c9b18d5b58610a5d" name="src/Stash/Handler/Sub/Memcache.php" role="php" />
+   <file baseinstalldir="/" md5sum="63ed564d0c06281a814a7ffb9d1f966a" name="src/Stash/Handler/Sub/Memcached.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd0e2d275280799c573557a483f93800" name="src/Stash/Handler/Sub/Sqlite.php" role="php" />
+   <file baseinstalldir="/" md5sum="79884b4be88e1fdabdb7b0d1d76abb3e" name="src/Stash/Handler/Sub/SqlitePdo.php" role="php" />
+   <file baseinstalldir="/" md5sum="0cb4ff3a337764f6f09305956cca5028" name="src/Stash/Handler/Sub/SqlitePdo2.php" role="php" />
+   <file baseinstalldir="/" md5sum="502837423492fa7ba47a95169ad42c48" name="tests/bootstrap.php" role="test" />
+   <file baseinstalldir="/" md5sum="4b5303cf0db560e71d38dccf7a7fe508" name="tests/travis.setup.php" role="test" />
+   <file baseinstalldir="/" md5sum="929cf89365043a7ea7ac881b7f6f5dfa" name="tests/Stash/Test/AbstractCacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="92a25f22748f5124bb0b5ed817cc5cba" name="tests/Stash/Test/BoxTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="c7641cd17ca922afcbc11a6ffa913d3d" name="tests/Stash/Test/CacheExceptionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="ebbdd83af6f1269f17665fa867dc4fa1" name="tests/Stash/Test/CacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="72247a6afc9d18573027c918b08928c2" name="tests/Stash/Test/HandlersTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="904d2a3153705f07d53c4dda9f21fb99" name="tests/Stash/Test/ManagerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="75cb33cb43aa72f2a5bbb7e8c6bff18f" name="tests/Stash/Test/PoolTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="69bd3329d7668921d440c90bab0f4d6f" name="tests/Stash/Test/UtilitiesTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="4f7294e786173f19cd8544f5e289be4f" name="tests/Stash/Test/Exception/ExceptionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="21c67ccf261a62f440f0a2910cbff266" name="tests/Stash/Test/Exception/TestException.php" role="test" />
+   <file baseinstalldir="/" md5sum="fbfee425f75857e2f6fa57d713631eee" name="tests/Stash/Test/Handler/AbstractHandlerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="d119d766a0d1beeebd8db43e43f5afbf" name="tests/Stash/Test/Handler/ApcTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="f9bd95213d41593deecba08a1f20cdc9" name="tests/Stash/Test/Handler/EphemeralTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="f364d387295b4a955c1255bb5b2c82c3" name="tests/Stash/Test/Handler/FileSystemTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="503d0c6f8968474ad253e7f980d6120d" name="tests/Stash/Test/Handler/MemcachedTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="446650982bfe05d29a0817b76aeaf164" name="tests/Stash/Test/Handler/MemcacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="648e2590d07ccecc54a939ed197c6e45" name="tests/Stash/Test/Handler/MultiHandlerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="5ccebb38c96a815292b18f8fbbbb255c" name="tests/Stash/Test/Handler/SqlitePdoSqlite2Test.php" role="test" />
+   <file baseinstalldir="/" md5sum="a5f6e336c2318c02a5f8b1af88232378" name="tests/Stash/Test/Handler/SqlitePdoSqlite3Test.php" role="test" />
+   <file baseinstalldir="/" md5sum="8af130f1be351e6a09d8c0d2a981fb0e" name="tests/Stash/Test/Handler/SqliteSqlite2Test.php" role="test" />
+   <file baseinstalldir="/" md5sum="28a146e30ae899b599cea7e521b60273" name="tests/Stash/Test/Handler/XcacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2eb7963f7967d8870cc36d72391be152" name="autoload.php" role="php" />
+   <file baseinstalldir="/" md5sum="2140af5021e517ba9d6e49274f462c00" name="composer.json" role="data" />
+   <file baseinstalldir="/" md5sum="0a8fd596034db85a8ae22c1d2330edfb" name="LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="275eef1e6481c37c390b0233271f9044" name="phpunit.xml.dist" role="data" />
+   <file baseinstalldir="/" md5sum="4178f1a809d18c5959ec8b4096b3b626" name="README.md" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>0.9.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-25</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.5</release>
+    <api>0.9.5</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.10.1</release>
+    <api>0.10.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2012-09-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>
