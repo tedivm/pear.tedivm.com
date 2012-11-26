@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>JShrink</n>
+<c>pear.tedivm.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD Style</l>
+<s>The javascript minifier for php.</s>
+<d>JShrink is a php class that minifies javascript so that it can be delivered to the client quicker. This code can be used by any product looking to minify their javascript on the fly (although caching the results is suggested for performance reasons). Unlike many other products this is not a port into php but a native application, resulting in better performance.</d>
+<r xlink:href="/rest/r/jshrink" />
+</p>
