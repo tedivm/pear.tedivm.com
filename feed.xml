@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.tedivm.com</id>
-    <updated>2012-11-25T21:09:49-08:00</updated>
+    <updated>2012-11-25T23:27:40-08:00</updated>
     <title>tedivm's PEAR channel Latest Releases</title>
     <link href="http://pear.tedivm.com/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>Fetch 0.4.1 (alpha)</title>
+        <link href="http://pear.tedivm.com/get/Fetch-0.4.1.tgz" />
+        <id>http://pear.tedivm.com/get/Fetch-0.4.1.tgz</id>
+        <author>
+            <name>tedivm</name>
+        </author>
+        <updated>2012-11-26T07:25:38-08:00</updated>
+        <content>
+            
+-
+ 
+        </content>
+    </entry>    <entry>
         <title>JShrink 0.5.1 (beta)</title>
         <link href="http://pear.tedivm.com/get/JShrink-0.5.1.tgz" />
         <id>http://pear.tedivm.com/get/JShrink-0.5.1.tgz</id>

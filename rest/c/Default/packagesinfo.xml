@@ -2,6 +2,30 @@
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
     <pi>
         <p>
+            <n>Fetch</n>
+            <c>pear.tedivm.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>A PHP IMAP Library</s>
+            <d>Fetch is a OOP Library that utilized the IMAP Extension for manipulating email and inboxes.</d>
+            <r xlink:href="/rest/r/fetch" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.4.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.4.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>JShrink</n>
             <c>pear.tedivm.com</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
