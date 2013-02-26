@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.tedivm.com</id>
-    <updated>2012-11-25T23:27:40-08:00</updated>
+    <updated>2013-02-25T23:58:00-08:00</updated>
     <title>tedivm's PEAR channel Latest Releases</title>
     <link href="http://pear.tedivm.com/feed.xml" rel="self" />
     <author>
@@ -32,6 +32,25 @@
         <content>
             
 -
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stash 0.10.2 (beta)</title>
+        <link href="http://pear.tedivm.com/get/Stash-0.10.2.tgz" />
+        <id>http://pear.tedivm.com/get/Stash-0.10.2.tgz</id>
+        <author>
+            <name>tedivm</name>
+        </author>
+        <updated>2013-02-26T07:45:43-08:00</updated>
+        <content>
+            
+* No longer requires composer to run the test suites (although it is recommended)
+
+* Multiple areas cleaned up, including unset usage, driver code, and tests.
+
+* Makes the algorithm used to generate path names by the Filesystem selectable.
+
+* Many other small edits and changes.
  
         </content>
     </entry>    <entry>
