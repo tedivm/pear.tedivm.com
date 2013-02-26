@@ -3,6 +3,10 @@
     <p>Stash</p>
     <c>pear.tedivm.com</c>
     <r>
+        <v>0.10.2</v>
+        <s>beta</s>
+    </r>
+    <r>
         <v>0.10.1</v>
         <s>beta</s>
     </r>
