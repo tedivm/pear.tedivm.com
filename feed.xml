@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.tedivm.com</id>
-    <updated>2013-02-25T23:58:00-08:00</updated>
+    <updated>2013-04-03T22:23:52-07:00</updated>
     <title>tedivm's PEAR channel Latest Releases</title>
     <link href="http://pear.tedivm.com/feed.xml" rel="self" />
     <author>
@@ -32,6 +32,19 @@
         <content>
             
 -
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stash 0.10.3 (beta)</title>
+        <link href="http://pear.tedivm.com/get/Stash-0.10.3.tgz" />
+        <id>http://pear.tedivm.com/get/Stash-0.10.3.tgz</id>
+        <author>
+            <name>tedivm</name>
+        </author>
+        <updated>2013-04-04T05:21:00-07:00</updated>
+        <content>
+            
+Updated tests, corrected bugs, and made some backend enhancements.
  
         </content>
     </entry>    <entry>
